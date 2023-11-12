@@ -1,11 +1,15 @@
 import React from "react";
 
-export  const Header = () => {
+
+type HeaderType = {
+    title: Array<string>
+}
+export  const Header = (props: HeaderType) => {
     return (
         <div>
-            <a href="#s">Home</a>-
-            <a href="#s">News Feed</a>-
-            <a href="#s">Messages</a>
+            <a href="#s">{props.title[0]}</a>-
+            <a href="#s">{props.title[1]}</a>-
+            <a href="#s">{props.title[2]}</a>
         </div>
     );
 }

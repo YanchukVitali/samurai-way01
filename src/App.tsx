@@ -8,7 +8,7 @@ import Footer from "./Footer";
 const App = () => {
     return (
         <div>
-            <Header/>
+            <Header title={["Hello", "News Feed", "Messages"]}/>
             <Technologies/>
             <Footer/>
         </div>
