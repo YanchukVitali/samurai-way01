@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Technologies} from "./Technologies";
+import {Technology} from "./Technology";
 import {Header} from "./Header";
 import Footer from "./Footer";
 
@@ -9,7 +9,7 @@ const App = () => {
     return (
         <div>
             <Header title={["Hello", "News Feed", "Messages"]}/>
-            <Technologies/>
+            <Technology title={["css", "html", "js", "react"]}/>
             <Footer/>
         </div>
 
