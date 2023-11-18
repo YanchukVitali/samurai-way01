@@ -6,6 +6,7 @@ export const Navigation = () => {
                 <a href="">Message</a>
                 <a href="">News</a>
                 <a href="">Music</a>
+                <a href="">Settings</a>
             </ul>
         </nav>
     )
