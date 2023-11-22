@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
+
 }
 
 .app-wrapper {
@@ -12,42 +13,7 @@
     grid-template-columns: 2fr 10fr;
     border: red solid 1px;
 
-     /*grid-gap: 10px;*/
-}
-.header {
-    grid-area: h;
-    background-color: rgba(34, 139, 34, 0.78);
-}
-
-.header img {
-    width: 20px;
-    border: red solid 1px;
+    /*grid-gap: 10px;*/
 }
 
 
-ul a {
-    list-style-type: none;
-    display: grid;
-    text-decoration: none;
-
-}
-.nav {
-    grid-area: n;
-    border: red solid 1px;
-    background-color: rgba(67, 119, 169, 0.71);
-    text-decoration: none;
-
-
-}
-
-
-.mountan {
-    width: 50%;
-    height: auto;
-}
-.section {
-    width: 100%;
-    grid-area: s;
-    border: red solid 1px;
-    background-color: rgba(111, 162, 111, 0.85);
-}

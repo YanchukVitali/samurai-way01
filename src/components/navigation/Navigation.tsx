@@ -1,3 +1,5 @@
+import "./Navigation.css"
+
 export const Navigation = () => {
     return (
         <nav className="nav">
@@ -7,6 +9,7 @@ export const Navigation = () => {
                 <a href="">News</a>
                 <a href="">Music</a>
                 <a href="">Settings</a>
+
             </ul>
         </nav>
     )
