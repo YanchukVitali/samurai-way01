@@ -16,7 +16,7 @@
 }
 .header {
     grid-area: h;
-    background-color: forestgreen;
+    background-color: rgba(34, 139, 34, 0.78);
 }
 
 .header img {
@@ -34,17 +34,20 @@ ul a {
 .nav {
     grid-area: n;
     border: red solid 1px;
-    background-color: #a2846f;
+    background-color: rgba(67, 119, 169, 0.71);
     text-decoration: none;
 
 
 }
 
+
+.mountan {
+    width: 50%;
+    height: auto;
+}
 .section {
     width: 100%;
     grid-area: s;
     border: red solid 1px;
-    background-color: #6fa26f;
-
-
+    background-color: rgba(111, 162, 111, 0.85);
 }
