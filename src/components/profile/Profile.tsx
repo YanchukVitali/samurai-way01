@@ -1,8 +1,8 @@
-import {findAllByDisplayValue} from "@testing-library/react";
+import React from "react";
 
-export const Section = () => {
+export const Profile = () => {
     return (
-        <section className={"section"}>
+        <section className="section">
             <div>
 
                 <img

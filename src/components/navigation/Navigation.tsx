@@ -1,6 +1,6 @@
 export const Navigation = () => {
     return (
-        <nav className={"nav"}>
+        <nav className="nav">
             <ul>
                 <a href="">Profile</a>
                 <a href="">Message</a>

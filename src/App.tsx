@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./header/Header";
-import {Navigation} from "./navigation/Navigation";
-import {Section} from "./section/Section";
+import {Header} from "./components/header/Header";
+import {Navigation} from "./components/navigation/Navigation";
+import {Profile} from "./components/profile/Profile";
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
         <div className={"app-wrapper"}>
             <Header></Header>
             <Navigation/>
-            <Section/>
+            <Profile/>
         </div>
 
     );
