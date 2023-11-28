@@ -1,0 +1,13 @@
+
+
+.section {
+    width: 100%;
+    grid-area: s;
+    border: red solid 1px;
+    background-color: rgba(111, 162, 111, 0.85);
+    color: antiquewhite;
+}
+.section img {
+    width: 50%;
+    height: auto;
+}

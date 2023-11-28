@@ -1,6 +1,6 @@
 import React from "react";
-import "./Profile.css"
-export const Profile = () => {
+import "./MyPost.css"
+export const MyPost = () => {
     return (
         <section className="section">
             <div>
