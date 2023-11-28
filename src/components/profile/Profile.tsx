@@ -1,5 +1,8 @@
 import React from "react";
 import "./Profile.css"
+import {FirstPost} from "./post/FirstPost";
+import {MyPost} from "./myPost/MyPost";
+
 export const Profile = () => {
     return (
         <section className="section">
@@ -9,10 +12,8 @@ export const Profile = () => {
                      alt="Mountan"/>
             </div>
             <div> avatar</div>
-            <div>My post</div>
-            <div>New post</div>
-            <div>Post 1</div>
-            <div>Post 2</div>
+            <FirstPost/>
+            <MyPost/>
         </section>
         
         
