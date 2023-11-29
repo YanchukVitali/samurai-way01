@@ -1,5 +1,5 @@
 
-.Post {
+.post img {
     width: 50px;
-display:block;
+    border-radius: 50%;
 }
