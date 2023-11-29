@@ -1,14 +1,16 @@
 import React from "react";
 import "./MyPost.css"
+import {Post} from "../post/Post";
 
 export const MyPost = () => {
     return (
         <div>
-            <div>New post</div>
-            <div>Post 1</div>
-            <div>Post 2</div>
+            <div className="post">My post</div>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
         </div>
-
 
     )
 }
