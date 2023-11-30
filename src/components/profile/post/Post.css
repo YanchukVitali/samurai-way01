@@ -3,3 +3,14 @@
     width: 50px;
     border-radius: 50%;
 }
+
+
+.like {
+
+    :hover{
+       background-color: #17e117;
+
+
+    }
+}
+

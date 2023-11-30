@@ -13,8 +13,8 @@ export const Post = (props: PostType) => {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjYMzf_2M2DHKW2igKtQo3cc2IHcj7FzB-pg&usqp=CAU"
                 alt="imeg profile"/>
             {props.title}
-            <div>
-                <span>like</span>
+            <div className="like">
+                <button>like</button>
             </div>
         </div>
 
