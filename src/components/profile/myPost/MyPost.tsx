@@ -7,10 +7,10 @@ export const MyPost = () => {
         // need refactor this component  because i dont like
         <div>
             <div className="post">My post <input type="text"/></div>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
+            <Post title="First post"/>
+            <Post title="Second post"/>
+            <Post title="Post number 3"/>
+            <Post title="Post number 4"/>
         </div>
 
     )

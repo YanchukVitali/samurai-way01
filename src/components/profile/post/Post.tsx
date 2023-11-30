@@ -1,11 +1,21 @@
 import React from "react";
 import "./Post.css"
 
-export const Post = () => {
+
+type PostType = {
+    title: string
+}
+
+export const Post = (props: PostType) => {
     return (
         <div className="post">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjYMzf_2M2DHKW2igKtQo3cc2IHcj7FzB-pg&usqp=CAU" alt="imeg profile"/>
-            Post 1
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjYMzf_2M2DHKW2igKtQo3cc2IHcj7FzB-pg&usqp=CAU"
+                alt="imeg profile"/>
+            {props.title}
+            <div>
+                <span>like</span>
+            </div>
         </div>
 
 
