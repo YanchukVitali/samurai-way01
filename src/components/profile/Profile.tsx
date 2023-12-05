@@ -6,15 +6,13 @@ import {ProfilePicture} from "./profilePicture/ProfilePicture";
 
 export const Profile = () => {
     return (
-        <section className="section">
+        <section>
             <ProfilePicture/>
             <AvatarProfile/>
             <MyPost/>
-
-
         </section>
-        
-        
+
+
     )
 }
 

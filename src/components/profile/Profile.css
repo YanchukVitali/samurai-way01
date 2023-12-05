@@ -1,5 +1,4 @@
 
-
 .section {
     width: 100%;
     grid-area: s;
@@ -7,8 +6,11 @@
     background-color: rgba(111, 162, 111, 0.85);
     color: antiquewhite;
 }
+
+/*
 .section img {
     width: 50%;
     height: auto;
 }
+*/
 

@@ -17,3 +17,10 @@
 }
 
 
+.app-wrapper-content {
+    width: 100%;
+    grid-area: s;
+    border: red solid 1px;
+    background-color: rgba(67, 119, 217, 0.82);
+    color: antiquewhite;
+}
