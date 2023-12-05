@@ -3,6 +3,7 @@ import './App.css';
 import {Header} from "./components/header/Header";
 import {Navigation} from "./components/navigation/Navigation";
 import {Profile} from "./components/profile/Profile";
+import {Dialogs} from "./components/dialogs/Dialogs";
 
 
 const App = () => {
@@ -10,7 +11,8 @@ const App = () => {
         <div className="app-wrapper">
             <Header/>
             <Navigation/>
-            <Profile/>
+            {/*<Profile/>*/}
+            <Dialogs/>
         </div>
 
     );
