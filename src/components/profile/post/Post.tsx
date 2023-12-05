@@ -4,6 +4,7 @@ import p from "./Post.module.css"
 
 type PostType = {
     title: string
+    like: number
 }
 
 export const Post = (props: PostType) => {
@@ -14,8 +15,11 @@ export const Post = (props: PostType) => {
                 alt="imeg profile"/>
             {props.title}
             <div className={p.like}>
-                <button>like</button>
+                <button>like {props.like}</button>
             </div>
+            <script>
+               {/* function hello() { alert('hello') }*/}
+            </script>
         </div>
 
 
