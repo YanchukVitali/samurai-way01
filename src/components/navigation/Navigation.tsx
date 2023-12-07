@@ -1,15 +1,14 @@
-import  "./Navigation.css";
-
+import  "./Navigation.module.css";
+import n from "./Navigation.module.css"
 export const Navigation = () => {
     return (
-        <nav className="nav">
+        <nav className={n.nav}>
             <ul>
-                <a href="">Profile</a>
-                <a href="">Message</a>
-                <a href="">News</a>
-                <a href="">Music</a>
-                <a href="">Settings</a>
-
+                <a href="/profile">Profile</a>
+                <a href="/message">Message</a>
+                <a href="/news">News</a>
+                <a href="/music">Music</a>
+                <a href="/seting">Settings</a>
             </ul>
         </nav>
     )
