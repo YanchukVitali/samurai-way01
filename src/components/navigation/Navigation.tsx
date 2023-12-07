@@ -8,7 +8,7 @@ export const Navigation = () => {
                 <a href="/message">Message</a>
                 <a href="/news">News</a>
                 <a href="/music">Music</a>
-                <a href="/seting">Settings</a>
+                <a href="/settings">Settings</a>
             </ul>
         </nav>
     )
